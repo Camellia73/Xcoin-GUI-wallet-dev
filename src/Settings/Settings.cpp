@@ -82,7 +82,7 @@ Settings& Settings::instance() {
 
 
 Settings::Settings() : m_p2pBindPort(0), m_cmdLineParser(nullptr) {
-  m_defaultPoolList << "pool.xcoin.ninja:3333";
+  m_defaultPoolList << "xcoin.communitypool.org:3318";
 
   Style* lightStyle = new LightStyle();
   Style* darkStyle = new DarkStyle();
